@@ -1,0 +1,11 @@
+.git
+.gitignore
+.venv
+__pycache__
+*.pyc
+data/
+tests/
+mlruns/
+notebooks/
+.pytest_cache/
+.coverage

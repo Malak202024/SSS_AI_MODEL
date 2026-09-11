@@ -1,0 +1,32 @@
+# Python & Environments
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Data & Heavy Models (تتم إدارتها لاحقاً عبر DVC)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+models/*.onnx
+models/*.pt
+models/*.pkl
+
+# MLflow Tracking artifacts
+mlruns/
+.mlflow/
+
+# IDEs & System
+.vscode/
+.idea/
+.DS_Store
+*.log
+
+sss_ai_model/
